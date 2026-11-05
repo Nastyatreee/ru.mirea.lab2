@@ -38,8 +38,8 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        GregorianCalendar cal = new GregorianCalendar(2005, 6, 21);
-        Student st = new Student("Анастасия", "Орлова", cal.getTime());
+        GregorianCalendar cal = new GregorianCalendar(2007, 0, 8);
+        Student st = new Student("Анастасия", "Усачева", cal.getTime());
 
         System.out.println(st);
         System.out.println("Короткий: " + st.formatBirthDate("короткий"));

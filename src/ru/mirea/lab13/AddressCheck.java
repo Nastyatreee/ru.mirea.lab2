@@ -6,7 +6,7 @@ public class AddressCheck {
         System.out.println(Address.fromCommaString(
                 "Россия,  Московская область , Химки, Ленинградская , 12, 2, 101"));
         System.out.println(Address.fromCommaString(
-                " Россия, Свердловская область, Екатеринбург, Малышева, 30, 1, 8 "));
+                " Россия, Московская область, Солнечногорск, Октябрьская, 77, 1, 8 "));
 
         System.out.println("\nб) Разделители , . ; (StringTokenizer):");
         System.out.println(Address.fromAnySeparator(

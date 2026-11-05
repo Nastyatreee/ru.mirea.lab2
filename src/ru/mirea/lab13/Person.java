@@ -31,9 +31,9 @@ public class Person {
 
     public static void main(String[] args) {
         Person[] people = {
-                new Person("Орлова", "Анастасия", "Игоревна"),
-                new Person("Фёдорова", "Дарья", ""),
-                new Person("Егорова", null, null)
+                new Person("Усачева", "Анастасия", "Михайловна"),
+                new Person("Попов", "Максим", ""),
+                new Person("Ослопова", null, null)
         };
         for (Person p : people) {
             System.out.println(p.getFio());

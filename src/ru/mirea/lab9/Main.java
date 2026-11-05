@@ -3,11 +3,11 @@ package ru.mirea.lab9;
 public class Main {
     public static void main(String[] args) {
         Student[] students = {
-                new Student(7, "Соколова", 4.6),
-                new Student(2, "Лебедева", 3.9),
-                new Student(9, "Новикова", 4.8),
-                new Student(4, "Козлова", 4.1),
-                new Student(1, "Павлова", 3.5)
+                new Student(7, "Усачева", 4.6),
+                new Student(2, "Ослопова", 3.9),
+                new Student(9, "Попов", 4.8),
+                new Student(4, "Ефимов", 4.1),
+                new Student(1, "Миронова", 3.5)
         };
 
         System.out.println("Исходный массив:");

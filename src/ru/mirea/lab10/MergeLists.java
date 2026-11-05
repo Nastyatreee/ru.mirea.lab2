@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class MergeLists {
     public static void main(String[] args) {
         ArrayList<Student> list1 = new ArrayList<>();
-        list1.add(new Student("Анастасия", "Орлова", "Прикладная информатика", 2, "ИНБО-05", 4.7));
-        list1.add(new Student("Алина", "Никитина", "Прикладная информатика", 2, "ИНБО-05", 3.8));
-        list1.add(new Student("Вера", "Титова", "Прикладная информатика", 2, "ИНБО-05", 4.2));
+        list1.add(new Student("Анастасия", "Усачева", "Информатика и вычислительная техника", 2, "КВБО-11-25", 4.7));
+        list1.add(new Student("Алина", "Ерохова", "Прикладная информатика", 2, "КПБО-12-25", 3.8));
+        list1.add(new Student("Вера", "Титова", "Медицинская физика", 2, "КФБО-13-26", 4.2));
 
         ArrayList<Student> list2 = new ArrayList<>();
-        list2.add(new Student("Дарья", "Фёдорова", "Бизнес-информатика", 2, "ИНБО-06", 4.0));
-        list2.add(new Student("Ксения", "Голубева", "Бизнес-информатика", 2, "ИНБО-06", 4.5));
+        list2.add(new Student("Максим", "Попов", "Бизнес-информатика", 2, "КББО-14-25", 4.0));
+        list2.add(new Student("Ксения", "Вострикова", "Системный анализ", 2, "КСБО-12-26", 4.5));
 
         ScoreComparator comp = new ScoreComparator();
 

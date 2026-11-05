@@ -4,17 +4,17 @@ package ru.mirea.lab13;
 public class ShirtTest {
     public static void main(String[] args) {
         String[] shirts = {
-                "S001,Black Polo Shirt,Black,XL",
-                "S002,Black Polo Shirt,Black,L",
-                "S003,Blue Polo Shirt,Blue,XL",
-                "S004,Blue Polo Shirt,Blue,M",
-                "S005,Tan Polo Shirt,Tan,XL",
-                "S006,Black T-Shirt,Black,XL",
-                "S007,White T-Shirt,White,XL",
-                "S008,White T-Shirt,White,L",
-                "S009,Green T-Shirt,Green,S",
-                "S010,Orange T-Shirt,Orange,S",
-                "S011,Maroon Polo Shirt,Maroon,S"
+                "s123, Adidas Shirt,Black,XL",
+                "S043,Nike Shirt,Black,L",
+                "S321,Sela Shirt,Blue,XL",
+                "S678,Reserved Shirt,Blue,M",
+                "S789,Super Shirt,Tan,XL",
+                "S437,Sela T-Shirt,Black,XL",
+                "S925,Puma T-Shirt,White,XL",
+                "S008,Guess T-Shirt,White,L",
+                "S183,Chanel T-Shirt,Green,S",
+                "S601,Dior T-Shirt,Orange,S",
+                "S691,Prada Shirt,Maroon,S"
         };
 
         Shirt[] shirtObjects = new Shirt[shirts.length];
